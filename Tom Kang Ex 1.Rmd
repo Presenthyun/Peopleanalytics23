@@ -1,0 +1,35 @@
+---
+title: "Exercise 1 - Tom Kang"
+output:
+  html_document: default
+  pdf_document: default
+date: "2023-05-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 1: Google 401k increase 
+
+R O1 X1 O2
+R O1 X2 O2
+
+The experiment should be created so that it becomes clear which option is more preferable, whether it is bonus or salary raise. 
+
+**Potential Threats**
+All the employees got a raise so the effect is difficult to compare with others for more analysis. Furthermore, there could be other influences such as the situation of the person in question: such as his health condition, age, finance, marriage status etc. 
+
+## Question 2: Wallet Drop Experiment
+**Steps taken to improve research design**
+
+200 wallets used to distribute across 20 cities to see the likelihood of the wallet being returned to owner.
+- 20 random cities within the US
+- Some specific locations such as toilets used to analyze gender specific data
+- Wallets dropped in different income level locations 
+- Every wallet is identical with fake ID and items within
+
+Threats
+- Number of wallets is not enough data to make a meaningful analysis (10 wallets per city)
+- Location too generalized - low income people could also be in high income locations - locations must be more specific, such as a 5 star hotel - fast food chain
+- The content of the wallet may be dependent on whether a person returns the wallet
